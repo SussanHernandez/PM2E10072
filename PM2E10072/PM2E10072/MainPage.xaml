@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PM2E10072.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Programacion Movil II" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+
+        <Image x:Name="imagen" WidthRequest="100" HeightRequest="200"></Image>
+        <Button x:Name="agregarImagen" Text="Agregar Imagen" Clicked="agregarImagen_Clicked"></Button>
+        <Label Text="Latitud"></Label>
+        <Entry x:Name="elatitud" TextColor="Black"></Entry>
+        <Label Text="Longitud"></Label>
+        <Entry x:Name="elongitud" TextColor="Black"></Entry>
+        <Label Text="Descripcion"></Label>
+        <Entry x:Name="description"></Entry>
+
+        <Button x:Name="btnGuardar" Text="Agregar" Clicked="btnGuardar_Clicked"></Button>
+        <Button x:Name="btnLista" Text="Lista Sitios" Clicked="btnLista_Clicked"></Button>
+
+
+    </StackLayout>
+
+</ContentPage>
